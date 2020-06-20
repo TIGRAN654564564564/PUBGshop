@@ -118,7 +118,7 @@
         <div class="row justify-content-center">
             <div class="col-12 col-md-3 col-lg-2 p-2 d-none d-md-block">
                 <div class="list-group">
-                    <a class="list-group-item list-group-item-action bg-success border-dark text-dark" href="account.html">My
+                    <a class="list-group-item list-group-item-action btn btn-dark bg-transparent text-dark" href="account.html">My
                         Account</a>
                   
                 </div>
@@ -176,20 +176,28 @@
                         <div class="row">
                             <div class="col-10">
 
-                                <div class="col-6"><img style="width: 150px;" class="m-2" src="img/cards.jpg" alt="">
-                                    <br>
-                                    <label for="ccnum">CARD NUMBER</label>
-                                    <br>
-                                    <input class="form-control" id="ccnum" type="text" placeholder="XXXX XXXX XXXX XXXX">
+                                <div class="form-row">
+    <div class="col-md-12 mb-3">
+      <label for="validationCustom01">CARD NUMBER</label>
+      <input type="text" class="form-control" id="validationCustom01"  required placeholder="XXXX XXXX XXXX XXXX">
+      
+    </div>
+    <div class="col-md-12 mb-3">
+      <label for="validationCustom02">NAME ON CARD</label>
+      <input type="text" class="form-control" id="validationCustom02"  required placeholder="Full Name">
+     
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="col-md-6 mb-3">
+      <label for="validationCustom03">EXPIRY DATE</label>
+      <input type="text" class="form-control" id="validationCustom03" required placeholder="MM/YY">
+      
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="validationCustom05">SECURITY CODE</label>
+      <input type="text" class="form-control" id="validationCustom05" required placeholder="XXXX">
                                 </div>
-                                <div class="col-6">
-                                    <label for="cname">NAME ON CARD</label>
-                                    <br>
-                                    <input type="text" id="cname" class="form-control" placeholder="Tigran Mkrtchyan">
-                                    <label for="expmonth">EXPIRY DATE</label>
-                                    <br>
-                                    <input type="text" id="expmonth" name="expmonth" class="form-control" placeholder="MM/YY"></div>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -400,7 +408,7 @@
                       <div class="prod-text-header text-center">
                         <a class="text-dark"><h5>M416 GLACIER</h5></a>
                       </div>
-                      <ul>
+                      <ul class="d-none d-lg-block">
                         <li class="text-success">Muzzles:Compensator(AR), Flash Hider(AR), Suppressor(AR).</li>
                         <li class="text-success">Magazines:Extended Mag(AR), Quickdraw(AR).</li>
                       </ul>
@@ -424,7 +432,7 @@
                       <div class="prod-text-header text-center">
                         <a class="text-dark"><h5>AKM GLACIER</h5></a>
                       </div>
-                      <ul>
+                      <ul class="d-none d-lg-block">
                         <li class="text-success">Muzzles:Compensator(AR), Flash Hider(AR), Suppressor(AR).</li>
                         <li class="text-success">Magazines:Extended Mag(AR), Quickdraw(AR).</li>
                       </ul>
@@ -448,7 +456,7 @@
                       <div class="prod-text-header text-center">
                         <a class="text-dark" ><h5>Kar98k Speed & Momentum</h5></a>
                       </div>
-                      <ul>
+                      <ul class="d-none d-lg-block">
                         <li class="text-success">Muzzle:Compensator(Snipers), Flash Hider(Snipers), Suppressor(Snipers)(recommended).</li>
                         <li class="text-success">Stock:Cheek Pad (recommended),Bullet loops(Shotgun)</li>
                       </ul>
@@ -466,13 +474,13 @@
                   <div class="p-1 prod prod1 col-6 col-md-12 border border-secondary rounded mt-1" id="">
                     <div class="row">
                       <div class="col-12 col-md-4 col-lg-3 d-flex justify-content-center">
-                        <img src="https://scontent.cdninstagram.com/v/t51.2885-15/e15/p240x240/103683225_2580923522127752_4541820966104591247_n.jpg?_nc_ht=scontent.cdninstagram.com&_nc_cat=108&_nc_ohc=ROex-g6xwQoAX9R2sne&oh=1d4c565d52cbb2e69a2e3fe83d98a845&oe=5F133B82&ig_cache_key=MjMzMjgyNjQ4MTgzNjcxMDk2OQ%3D%3D.2" width="150px" height="150px" class="prod-img">
+                        <img src="https://scontent.cdninstagram.com/v/t51.2885-15/e15/p240x240/103683225_2580923522127752_4541820966104591247_n.jpg?_nc_ht=scontent.cdninstagram.com&_nc_cat=108&_nc_ohc=ROex-g6xwQoAX9R2sne&oh=1d4c565d52cbb2e69a2e3fe83d98a845&oe=5F133B82&ig_cache_key=MjMzMjgyNjQ4MTgzNjcxMDk2OQ%3D%3D.2" width="150px" height="204px" class="prod-img">
                       </div>
                     <div class="col-12 col-md-4 col-lg-6">
                       <div class="prod-text-header text-center">
                         <a class="text-dark" ><h5>JOKER</h5></a>
                       </div>
-                      <ul>
+                      <ul class="d-none d-lg-block">
                         <li class="text-success">JOKER Skin.</li>
                         <li class="text-success">JOKER M416 Skin.</li>
                         <li class="text-success">JOKER Bag Skin.</li>
